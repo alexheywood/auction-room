@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 30px;
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bidHistory {
+  border: solid black;
+  margin-top: 20px;
+}
+
+.itemDescription {
+  margin-top: 20px;
+  border: solid black 2px;
+}
+
+.bidButton {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.itemImage {
+  border: solid black 2px;
 }
