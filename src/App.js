@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import Image from './Image';
 import Description from './Description';
-import BidButton from './BidButton';
+import LikeButton from './LikeButton';
 import BidHistory from './BidHistory';
 import Item from './Item';
 import {items} from './items';

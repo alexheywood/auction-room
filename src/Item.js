@@ -1,5 +1,5 @@
 import React from 'react';
-import BidButton from './BidButton';
+import LikeButton from './LikeButton';
 import BidHistory from './BidHistory';
 import Image from './Image';
 import Description from './Description';
@@ -17,7 +17,7 @@ function Item(props) {
             description={props.itemObject.description.description}
             year={props.itemObject.description.year}
             />
-            <BidButton />
+            <LikeButton />
             <BidHistory />
         </div>
     )
