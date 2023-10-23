@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
-import { items } from './items';
+import { items } from '../items';
 
-function LikeButton()
+function LikeButton(props)
 {
     const [isLiked, setLike] = useState(false);
-    let [likes, setLikes] = useState(3234);
+    let [likes, setLikes] = useState(props.likeCount);
+
     let [buttonText, setButtonText] = useState('Like');
     let [buttonURL, setButtonURL] = useState('noLike.png');
 
-    const handleBid = () => {
+    const handleLike = () => {
 
         if(isLiked) {
             setLikes((likes - 1));
@@ -23,18 +24,16 @@ function LikeButton()
         setButtonText('Unlike');
         setButtonURL('like.png');
         }
-        console.log(isLiked);
-        console.log("Likes: " + likes);
         
     }
 
  
     return (
-        <div className="bidSection justify-space-even">
-                        <img src={buttonURL} width="30" height="30"/>
+        <div className="likeSection justify-space-even col-6">
+            <img src={buttonURL} width="30" height="30"/>
             <p className="likeCount">Count: {likes}</p>
             <div className="likeButton">
-            <input type="submit" value={buttonText} onClick={handleBid} />
+            <input type="submit" value={buttonText} onClick={handleLike} />
             </div>
         </div>
     )

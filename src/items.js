@@ -9,5 +9,6 @@ export const items = [
         year: "1923"
       },
       bidHistory: [],
+      likeCount: 2343
     }
   ]

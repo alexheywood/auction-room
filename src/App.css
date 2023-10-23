@@ -39,7 +39,7 @@
 }
 
 .bidHistory {
-  border: solid black;
+  border: solid black 2px;
   margin-top: 20px;
 }
 
@@ -48,10 +48,6 @@
   border: solid black 2px;
 }
 
-.bidButton {
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
 
 ul {
   list-style: none;
@@ -61,4 +57,18 @@ ul {
 
 .itemImage {
   border: solid black 2px;
+}
+
+
+.bidButton {
+  margin-top: 10px;
+}
+
+.bidTitle {
+  margin-bottom: 5px;
+}
+
+.bidInput {
+
+  width: 100px;
 }

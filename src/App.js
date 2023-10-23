@@ -1,17 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-import Image from './Image';
-import Description from './Description';
-import LikeButton from './LikeButton';
-import BidHistory from './BidHistory';
-import Item from './Item';
+import Item from './components/Item';
 import {items} from './items';
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
 
 
 function App() {
