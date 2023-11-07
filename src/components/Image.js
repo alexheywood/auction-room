@@ -9,8 +9,8 @@ function Image(props)
 Image.defaultProps = {
     url: "thumbnail.jpg",
     alt: "Thumbnail of item",
-    width: "100%",
-    height: "100%"
+    width: "500px",
+    height: "400px"
   };
 
 
